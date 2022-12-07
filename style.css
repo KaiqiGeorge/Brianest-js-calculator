@@ -12,7 +12,7 @@ html{
     grid-template-columns: repeat(4,100px);
     grid-template-rows: minmax(100px,auto) repeat(5,80px );
     gap: 2px;
-    width: 30%
+    width: 402px;
 }
 #display{
     grid-column: 1/-1;
@@ -40,4 +40,7 @@ html{
 }
 #container button{
     font-size: 25px;
+    font-weight: 500;
+    border-radius: 6px;
+    box-shadow:1.5px 1.5px black ;
 }
