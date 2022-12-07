@@ -10,7 +10,7 @@ btns.map((button) => {
         break;
       case "←":
         if (display.innerText) {
-          display.innerText = Array.from(display.innerText).slice(0, -1);
+          display.innerText = display.innerText.slice(0, -1);
         }
         break;
       case "+/-":
