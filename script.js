@@ -30,7 +30,6 @@ btns.map((button) => {
             display.innerText = "error";
           }
         }
-
         break;
       default:
         display.innerText += e.target.innerText;
