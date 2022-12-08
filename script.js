@@ -3,7 +3,6 @@ let btns = Array.from(document.querySelectorAll("button"));
 
 btns.map((button) => {
   button.addEventListener("click", (e) => {
-    console.log(e.target.innerText);
     switch (e.target.innerText) {
       case "AC":
         display.innerText = "";
